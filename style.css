@@ -31,9 +31,31 @@ body {
     justify-content: space-between;
   }
 
+  .swiper-button-next {
+    margin-left: 300px;
+    color: black;
+  }
+
+  .swiper-button-next:hover {
+    margin-left: 300px;
+    color: rgb(0, 213, 255);
+  }
+
+  .swiper-button-prev {
+    margin-right: 1100px;
+    align-items: left;
+    color: black;
+  }
+
+  .swiper-button-prev:hover {
+    margin-right: 300px;
+    color: rgb(0, 213, 255);
+  }
+
+
   .swiper {
     margin-bottom: 100px;
-    width: 100%;
+    width: 70%;
     height: 100%;
   }
 
@@ -53,7 +75,7 @@ body {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    -webkit-align-items: center;
+    align-items: center;
     
   }
 
@@ -173,7 +195,7 @@ section {
 }
 
 .card {
-    width: 30em;
+    width: 35em;
     background-color: white;
     box-shadow: 0 5px 25px rgba(1 1 1 /30%);
     border-radius: 10px;
@@ -225,10 +247,10 @@ section {
 }
 
 .project-card {
-   
+   background-color: white;
 
     min-height: 12em;
-    width: 23em;
+    width: 25em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -547,7 +569,7 @@ section {
         align-items: center;
     }
 }
-@media (max-width: 300px){
+@media (max-width: 300px)
     {
         .main {
             background-size: cover;
