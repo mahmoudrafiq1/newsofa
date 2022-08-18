@@ -395,19 +395,21 @@ section {
     }
     
     .projects-services {
-        min-height: 1600px;
-        background-size: cover;
+        height: 700px;
         min-width: 700px;
+        align-items: center;
     }
     
 
     .projects-services .title {
         align-items: center;
+        margin-bottom: -400px;
     }
 
     .projects-services h2 {
         padding-bottom: 500px;
     }
+
 
     .cards .content {
         background-size: cover;
@@ -428,11 +430,13 @@ section {
         align-content: center;
         min-width: 700px;
         justify-content: center;
-        min-height: 1500px;
+        min-height: 700px;
     }
     
     .cards-contact {
         min-width: 700px;
+        min-height: 800px;
+        align-items: center;
     }
 
     .navigation a{
@@ -466,7 +470,13 @@ section {
         align-items: center;
         min-width: 200px;
     }
-    
+
+    .swiper {
+        width: 110%;
+        margin-top: 100px;
+        padding-left: 200px;
+    }
+
     .footer {
         min-width: 700px;
         padding-top: 10px;
